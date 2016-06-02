@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.helloit.main.FruitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-02T12:35:28" hostname="192-168-0-101.rdsnet.ro" time="0.002">
+  <properties/>
+  <testcase name="simpleTest" classname="com.helloit.main.FruitTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

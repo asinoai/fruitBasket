@@ -6,12 +6,21 @@ import java.util.List;
 
 /**
  */
-public class Basket {
+public class Basket implements Cloneable {
 
     private final List<Fruit> fruits;
 
     public Basket() {
-        fruits = new ArrayList<Fruit>();
+        this.fruits = new ArrayList<Fruit>();
+    }
+
+    public Basket(final Basket basket) {
+        this.fruits = new ArrayList<Fruit>(basket.fruits);
+    }
+
+    @Override
+    public Basket clone() throws CloneNotSupportedException {
+        return (Basket)super.clone();
     }
 
     public void addFruit(final Fruit fruit) {
